@@ -1,9 +1,10 @@
 name: mock_http_overrides
 description: MockHttpOverrides for tests
 version: 0.0.1
+homepage: https://github.com/cedvdb/mock_http_overrides
 
 environment:
-  sdk: ^3.7.0-224.0.dev
+  sdk: ^3.5.0
   flutter: ">=1.17.0"
 
 dependencies:
