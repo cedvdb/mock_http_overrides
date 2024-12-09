@@ -2,6 +2,8 @@ import 'dart:io';
 
 import 'package:mocktail/mocktail.dart';
 
+// note, copied from https://stackoverflow.com/a/49167253/4299560
+
 class MockHttpOverrides extends HttpOverrides {
   MockHttpOverrides([this.dataByPath = const {}]);
 
